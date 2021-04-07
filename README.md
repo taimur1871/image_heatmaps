@@ -15,6 +15,8 @@ An example of dog detection using this is given below.
 * numpy 1.19
 * cv2 4.4.0.46
 
+## Extension of Application
+
 The idea can be taken much further and used to generate bounding boxes. This was done by making a threshold map from heatmaps and then finding coordinates of the object of interest. Please refer to notebook 3 for some examples.
 ![Threshold_heat_map](https://github.com/taimur1871/image_heatmaps/blob/main/dog_threshold.png)
 
